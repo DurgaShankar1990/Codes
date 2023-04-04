@@ -1,0 +1,1106 @@
+{% if not site_settings.include_jquery %}
+  {{ require_js('https://code.jquery.com/jquery-1.12.4.min.js', 'footer' )}}
+{% endif %}
+
+{% require_js %}
+<script defer src="{{ get_asset_url('../../js/plugins/slick.js') }}"></script>
+{% end_require_js %}
+GTM-KR78S8Z
+https://i.pinimg.com/originals/2c/48/ed/2c48ed843cdd2c38d3ab22a8b781d3e1.jpg
+https://images-na.ssl-images-amazon.com/images/I/51Mi-XE9g%2BL._SX466_.jpg
+https://i.pinimg.com/originals/89/45/22/8945221eb29c30ad9de28a4a796ccb7c.jpg
+https://i.pinimg.com/originals/3c/da/ba/3cdabae9213cc3d9b948f0d253a662cc.jpg
+https://developers.hubspot.com/blog/boost-your-dev-skills-with-these-academy-videos
+New ID 
+durgashankar@hermitcrabs.io
+Ds@hermit123
+
+webdev@metric.com.sg
+5A%Mda3S
+
+Clickup@ds123
+
+https://www.republicworld.com/topics/filmy4wap
+.blog-recent-posts__image[style="background-image: url('');"] {
+    display: none;
+}
+
+https://hdmovieshubz.in/daredevil-netflix-season-1-3-hindi-720p/
+{{ get_asset_url('../../images/400dpiLogo.png') }}
+
+
+{{ require_css(get_asset_url("../../css/theme-overrides.css")) }}
+8003364841
+
+
+
+=if(A74=B74,"Y", "N")
+
+<link href="//localhost:9000/style.css" rel="stylesheet" type="text/css">
+http://bfintal.github.io/Counter-Up/demo/demo.html
+&zwnj;
+
+ng generate @angular/material:material-dashboard --name=my-dashboard
+
+sudo yarn
+sudo ng set --global packageManager=yarn
+
+html>(head>title+meta)+body>div.container>div.col-sm-12*2>div.row>div.col-sm-6*2>h4+pre>cod
+
+.custom-2col-img.right > div {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.custom-2col-img.right > div > .col {
+    margin-bottom: 2rem;
+}
+.custom-2col-img.right > div > .col-sm-4 {
+    margin-bottom: 0;
+}
+
+http://csharp-video-tutorials.blogspot.com/2017/12/angular-project-setup.html
+http://csharp-video-tutorials.blogspot.com/2018/01/angular-datepicker-tutorial.html
+https://www.blogger.com/blogger.g?blogID=1447697080520838321#allposts
+Correct code syntax : src="{{ resize_image_url( content.post_list_summary_featured_image,600 ) }}"
+or
+src="{{ resize_image_url( content.post_list_summary_featured_image,300,0,0,0,true ) }}"
+
+rgba({{ module.banner_bg_color.color|convert_rgb  }},{{ module.banner_bg_color.opacity/100 }})
+
+Sample Page by Hubspot Migrations Team
+Sample Blog by Hubspot Migrations Team
+Sample HubSpot User
+
+ 
+
+dkumar+skipform@hubspot.com
+jupadhyay+skipform@hubspot.com
+
+
+https://twitter.com/intent/tweet?text=
+
+{% set rec_posts = blog_recent_posts('default', 4) %}
+{% for rec_post in rec_posts %}
+{% if content.absolute_url != rec_post.absolute_url %}
+   <div class="post-title">{{ rec_post.name }}</div>
+{% endif %}
+{% endfor %}
+
+
+.hs-search-field__bar,
+.hs_cos_wrapper_type_form,
+.widget-type-blog_subscribe,
+.widget-type-google_search,
+.widget-type-email_simple_subscription,
+.widget-type-email_subscriptions,
+.widget-type-password_prompt,
+.systems-page .form-container{
+  padding: 30px;
+  border: 1px solid red;
+  background-color: #ffa200;
+  max-width: 700px;
+  width: 100%;
+  margin-bottom: 30px;
+  display: block;
+}
+
+https://codelabs.developers.google.com/codelabs/android-training-hello-world/index.html?index=..%2F..%2Fandroid-training#3
+https://drive.google.com/drive/folders/1e38oc2zQpFxRnKcd7E1WKOd2DpSFa71r
+<a class="share_googleplus" href="javascript:;" title="googleplus" target="popup"
+onclick="window.open('https://plus.google.com/share?url=http://hyp3r-4786042.hs-sites.com/sample-blog/sample-post',
+'targetWindow', 'height=550, width=400, left=100, top=100, menubar=0')">
+
+https://publish.twitter.com/
+@import url(//fonts.googleapis.com/css?family=Raleway:400,100,300,700);
+@import url(//fonts.googleapis.com/css?family=Lato:400,300,400italic,700,700italic,100);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');  
+@import url('//cdn2.hubspot.net/hubfs/2220804/Decibel_insight_June-2016/Css_and_Js/icomoon.css');
+https://cdn-images-1.medium.com/max/1000/1*kDb-aH_AZ8zOnDoKKfbLnw.jpeg
+
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css
+https://static.hsappstatic.net/content_shared_assets/static-1.4037/img/sample_blog.jpg
+
+https://app.hubspot.com/forms/2608589/
+http://43.225.52.170/~tracker/leaveCalendar.php
+
+<!-- This blog uses separate templates for listing and blog pages -->
+
+https://cdn2.hubspot.net/hubfs/3020183/Agile_BI_May_2017/images/transparent.png
+
+blog sub title add listing page add one custom module use a RichText filed and swap post page any where without look last edit post item */
+<div class="subtitle">
+   {% for module_item in content.widgets %}
+   {% if module_item.label == "Post Subtitle" %}
+   {% if module_item.body.sub_title %}
+   {{ module_item.body.sub_title }}
+   {% endif %}
+   {% endif %}
+   {% endfor %}
+</div>
+
+
+
+ul.hs-error-msgs.inputs-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.hs-error-msgs label {
+    color: red;
+}
+
+input.hs-input.error{
+    border-color: #c87872;
+    box-shadow: 0 0 3px rgba(171,41,32,0.25);
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+}
+/* ======================== Middle Content ====================================== */    
+.main-content {
+padding:0 20px 35px;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+rgba({{ module.banner_bg_color.color|convert_rgb  }},{{ module.banner_bg_color.opacity/100 }})
+
+onchange="document.location.href=this.options[this.selectedIndex].value;"
+
+/* ======================== Sidebar Content ====================================== */  
+
+
+.sidebar .hs_cos_wrapper_type_follow_me .block > div {
+padding: 10px;
+}
+.sidebar .hs_cos_wrapper.hs_cos_wrapper_widget {
+display: block;
+font-size: 0.95em;
+line-height: 145%;
+margin: 0 0 25px;
+display: block;
+padding: 8px 20px;
+}
+.sidebar h3 {
+font-size: 1.3em;
+font-weight: normal;
+line-height: 125%;
+margin: 0 0 10px;
+padding: 5px 0 0;
+white-space: normal;
+}
+.sidebar p {
+font-size: 0.95em;
+line-height: 145%;
+margin: 5px 0 15px;
+padding: 0;
+}
+
+
+.sidebar input[type="password"],
+.sidebar input[type="datetime"],
+.sidebar input[type="datetime-local"],
+.sidebar input[type="date"],
+.sidebar input[type="month"],
+.sidebar input[type="time"],
+.sidebar input[type="week"],
+.sidebar input[type="number"],
+.sidebar input[type="email"],
+.sidebar input[type="url"],
+.sidebar input[type="search"],
+.sidebar input[type="tel"],
+.sidebar input[type="color"],
+.sidebar input[type="file"],
+.sidebar textarea,
+.sidzebar select {
+width: 90%;
+
+}
+
+/* mobile */
+
+.body-container .page-center{
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.sidebar input[type="text"],
+.sidebar input[type="password"],
+.sidebar input[type="datetime"],
+.sidebar input[type="datetime-local"],
+.sidebar input[type="date"],
+.sidebar input[type="month"],
+.sidebar input[type="time"],
+.sidebar input[type="week"],
+.sidebar input[type="number"],
+.sidebar input[type="email"],
+.sidebar input[type="url"],
+.sidebar input[type="search"],
+.sidebar input[type="tel"],
+.sidebar input[type="color"],
+.sidebar input[type="file"],
+.sidebar textarea,
+.sidebar select {
+width: 100% !important;
+max-width:100% !important;
+}
+
+
+
+body input[type="text"],
+body input[type="password"],
+body input[type="datetime"],
+body input[type="datetime-local"],
+body input[type="date"],
+body input[type="month"],
+body input[type="time"],
+body input[type="week"],
+body input[type="number"],
+body input[type="email"],
+body input[type="url"],
+body input[type="search"],
+body input[type="tel"],
+body input[type="color"],
+body input[type="file"],
+body textarea,
+body select {
+  width: 100% !important;
+  max-width:100% !important;
+}
+.main-content,
+.sidebar .hs_cos_wrapper.hs_cos_wrapper_widget{
+    padding-left:0px;
+    padding-right:0px;
+}
+.sidebar.left .hs_cos_wrapper.hs_cos_wrapper_widget,
+.sidebar.right .hs_cos_wrapper.hs_cos_wrapper_widget{
+    margin-left:0;
+    margin-right:0;
+}
+img.alignLeft,
+img.alignRight,
+img[align="right"],
+img[align="left"]{
+  display: block !important;
+  float: none !important;
+  margin: 10px 0 !important;
+}
+.sidebar{
+    padding-top:20px;
+}
+.cms-migrated table {
+  table-layout: fixed;
+  width: 100% !important;
+}
+.cms-migrated td {
+  display: block;
+  width: 100%;
+}
+
+.blog .main-content{
+  margin-right: 0 !important;
+  float: right !important;
+}
+.blog .blog-sidebar{
+  margin-left: 0 !important;
+}
+
+@media (max-width: 767px) {
+    .blog .main-content{
+        margin-left: 0 !important;
+    }
+    .blog .blog-sidebar,
+    .blog .main-content{
+        width: 100% !important;
+        float: none !important;
+    }
+}  
+
+{% if content.all_widgets[0].body.sub_title %}
+    <h3>{{ content.all_widgets[0].body.sub_title }}</h3>
+{% endif %}
+
+/*     Blog Custom Module      */
+
+{% for module_item in content.widgets %}
+{% if module_item.label == "Video Tutorial - Fellsway_Group_June2018 Theme" %}
+<iframe src="{{ module_item.body.video_link }}"></iframe>
+{% endif %}
+{% endfor %}
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+{% set pageSize = contents|length %}
+      {% set totalPostCount = blog_total_post_count(blog.id) %}
+      {% set startIndex = 0 %}
+      {% set endIndex = 0 %}
+      {% if current_page_num < 2 %}
+      {% set current_page_num = 1 %}
+      {% endif %}
+      {% if current_page_num != contents.total_page_count %}
+      {% set startIndex = pageSize * current_page_num - pageSize + 1 %}
+      {% set endIndex = pageSize * current_page_num %}
+      {% endif %}
+      {% if current_page_num == contents.total_page_count %}
+      {% set startIndex = totalPostCount - pageSize + 1 %}
+      {% set endIndex = totalPostCount %}
+      {% endif %}
+      <span class="count">
+        Resultater  {{ startIndex }}-{{ endIndex }} af {{ totalPostCount }}
+      </span>
+
+
+====================== Blog ==============
+ $(window).unbind('.infscr');
+ $('a.next-posts-link:last').click(function(){
+    $container.infinitescroll('retrieve');
+    return false;
+  });
+
+ {% if not simple_list_page %}
+            <div class="blog-pagination">
+                {% if next_page_num %}
+                   <a class="next-posts-link load-more" href="{{ blog_page_link(next_page_num) }}"><i class="mk-moon-loop-6"></i>Load More</a>
+                {% endif %}
+            </div>
+  {% endif %}
+
+{{ blog_topics('default', 250) }} {% set my_topics = blog_topics('default', 250) %} <ul> {% for item in my_topics %} <li><a href="{{ blog_tag_url(group.id, item.slug) }}">{{ item }}</a></li> {% endfor %} </ul>
+----
+{{ blog_topics('default', 250) }}
+
+{% set my_topics = blog_topics('group.id', 250) %}
+<ul>
+  <li><a href="{{ group.absolute_url }}">All</a></li>
+  {% for item in my_topics %}
+  <li><a href="{{ blog_tag_url(group.id, item.slug) }}">{{ item }}</a></li>
+  {% endfor %}
+</ul>
+
+
+
+{{ content.publish_date_local_time.strftime('%A,  %d, %Y') }} DATE
+<a class="orange-btn" href='{% text "custom_blog_link" label="Download Link" %}'>{% if content.widgets.custom_blog_link.body.value %}Download{% endif %}</a>
+
+
+in post -->> {% text "custom_blog_link" label="Link to external post item", export_to_template_context="True" %} SINGLLINE
+in listing -->> {{ content.widgets.custom_blog_link.body.value }}
+
+
+
+in post -->> {% rich_text "listing_content" label="Enter Listing Summary Here" %}</div> RICHTEXT
+in listing -->> {{ content.widgets.custom_blog_link.body.html }} Rich Text
+
+<div class="custom-post-pagination">
+        {% if content.previous_post_slug %}<a class="previous-posts-link" href="/{{ content.previous_post_slug }}">{{ content.previous_post_name }}</a>{% endif %}
+        {% if content.next_post_slug %}<a class="next-posts-link" href="/{{ content.next_post_slug }}">{{ content.next_post_name }}</a>{% endif %}
+</div>
+
+http://designers.hubspot.com/docs/snippets/design/implement-a-parallax-effect `
+
+
+
+LEFT RIGTH BLOG NAVIGATION
+
+<div class="posts-nav clearfix avia-post-nav">
+  {% if content.previous_post_slug %}
+  <div class="left prev">
+ 
+    <span class="label iconfont" aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello"></span>
+    <span class="entry-info-wrap">
+      <a class="Previous" href="/{{ content.previous_post_slug }}">
+      <span class="entry-info-wrap">
+        <span class="entry-info">
+          <span class="entry-title">{{ content.previous_post_name }}</span>
+          <span class="entry-image"><img src="{{ content.previous_post_featured_image }}"></span>
+        </span>
+      </span>
+      </a>
+    </span>
+ 
+    </div>
+     {% endif %}
+    {% if content.next_post_slug %}
+  <div class="right next">
+ 
+    <span class="label iconfont" aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello"></span>
+    <span class="entry-info-wrap">
+      <a class="Previous" href="/{{ content.next_post_slug }}">
+      <span class="entry-info-wrap">
+        <span class="entry-info">
+          <span class="entry-image"><img src="{{ content.next_post_featured_image }}"></span>
+          <span class="entry-title">{{ content.next_post_name }}</span>
+        </span>
+      </span>
+      </a>
+    </span>
+ 
+  </div>
+  {% endif %}
+</div>
+
+<ul class="previous-next-link custom-blog-pagination-on-post">
+{% if content.next_post_slug %}
+<li><a class="Next" href="/{{ content.next_post_slug }}">Newer</a></li>
+{% else %}
+<li><a class="Next inactive"  href="#">Newer</a></li>
+{% endif %}
+
+{% if content.previous_post_slug %}
+<li><a class="Previous" href="/{{ content.previous_post_slug }}">Older</a></li>
+{% else %}
+<li><a class="Previous inactive" href="#">Older</a></li>
+{% endif %}
+
+</ul>
+
+
+{{ group.absolute_url }}/archive/{{ content.publish_date_local_time.strftime('%Y') }}/{{ content.publish_date_local_time.strftime('%m') }}/{{ content.publish_date_local_time.strftime('%d') }}
+{{ group.absolute_url }}/archive/{{ content.publish_date_local_time.strftime('%Y/%m/%d') }}
+/* Sticky */
+http://43.225.52.170/~tracker/index.php
+durgashankar@thewebplant.in
+
+dekumar@hubspot.com
+M@dr1d2!
+
+deepti@thewebplant.com
+Sh@ngh@!1 New
+
+dmittal@hubspot.com
+Ultrabook9!
+
+
+
+<div class="custom-banner dark-bg">
+    <div class="content">
+        <div class="page-center">
+            <div class="text-white">{{ widget.banner_content }}</div>
+        {% if widget.banner_icon_image.src %}
+            <span class="icon" style="background-color:{{ widget.icon_background_color }}">
+            <img src="{{ widget.banner_icon_image.src }}" width="{{ widget.banner_icon_image.width }}" height="{{ widget.banner_icon_image.height }}" alt="{{ widget.banner_icon_image.alt }}">
+            </span>
+        {% endif %}
+        </div>
+    </div>
+    <div class="header-media">
+        <picture id="banner-image" class="banner-image">
+           
+            <source srcset="{{ widget.banner_image.src }}" media="(min-width: 1200px)">
+            <source srcset="{{ widget.ipad_banner_image.src }}" media="(min-width: 768px)">
+            <source srcset="{{ widget.mobile_banner_image.src }}" media="(min-width: 468px)">
+           
+           {% if widget.small_mobile_image.src %}
+                <img src="{{ widget.small_mobile_image.src }}" width="{{ widget.small_mobile_image.width }}" height="{{ widget.small_mobile_image.height }}" alt="{{ widget.small_mobile_image.alt }}">
+           {% endif %}
+        </picture>
+    </div>
+</div>
+
+proxy URL: migration-pxy.hubspotcentral.com
+port: 3128
+username: migration
+password: m!grat!0n
+
+ 
+DSNHP11739700000000038
+100520593968
+
+http://hubspot-migrations.hs-sites.com/code-library/blog-related-posts-module // related post
+http://designers.hubspot.com/docs/hubl/hubl-supported-functions#blog-popular-posts
+http://designers.hubspot.com/docs/hubl/hubl-supported-functions#blog-recent-posts
+
+$('.accordion-heading').click(function(){
+    $(this).next().slideToggle(1000);
+$(this).toggleClass('open');
+})
+
+$('.accordion-heading').click(function(){$(this).next().slideToggle(1000);})
+
+
+.custom-menu-primary .hs-menu-wrapper > ul > li:hover > ul {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        -webkit-box-shadow: 0px 3px 3px 0px rgba(135,135,135,.6);
+        -moz-box-shadow: 0px 3px 3px 0px rgba(135,135,135,.6);
+        box-shadow: 0px 3px 3px 0px rgba(135,135,135,.6);
+    }
+    .custom-menu-primary .hs-menu-wrapper > ul > li > ul {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+    }
+    .custom-menu-primary .hs-menu-wrapper > ul > li > a{
+        padding: 0.75rem 0;
+        letter-spacing: 1px;
+        text-align: center;
+        display: block;
+        border-top: 1px solid #58585a;
+        border-bottom: 1px solid #58585a;
+        white-space: nowrap;
+        text-transform: uppercase;
+        font-family: "Lato",Arial,sans-serif;
+        color: #ffffff;
+    }
+    .custom-menu-primary .hs-menu-wrapper > ul > li:hover > a{
+        color: #ffffff;
+        background-color: #f48221;
+        border-top: 1px solid #f48221;
+        border-bottom: 1px solid #f48221;
+        transition-delay: 150ms;
+        -webkit-transition-delay: 150ms;
+    }
+    .custom-menu-primary .hs-menu-wrapper > ul ul{
+        max-width: 100%;
+        width: 100%;
+        background: #fff;
+    }
+    .custom-menu-primary .hs-menu-wrapper > ul > li > ul > li {
+        width: 18.75%;
+        float: left;
+        min-height: 1px;
+    }
+    .custom-menu-primary .hs-menu-wrapper > ul > li:last-child > ul > li,
+    .custom-menu-primary .hs-menu-wrapper > ul > li:nth-child(5) > ul > li{
+        width: 25%;
+    }
+    .custom-menu-primary .hs-menu-wrapper > ul > li > ul > li:last-child{
+        width: 25%;
+    }.
+
+
+
+
+vikas@thewebplant.in
+
+
+Technically Media May 2017
+sumiandro@gmail.com
+it-helpdesk@thewebplant.in
+vikas@thewebplant.in
+
+durgashankar@thewebplant.in
+
+dishant@thewebplant.in
+
+{% set sans_serif = "Times New Roman, sans-serif" %}
+   
+<style>
+    table#backgroundTable {
+        background: #0e0e0e !important;
+    }
+    td#contentCell {
+        padding: 0 !important;
+    }
+    table#contentTableOuter {
+        padding:  0 !important;
+        border: 0 !important;
+    }
+
+    h2{
+        text-align: center !important;
+        color: #999999 !important;
+        margin: 0 0 0px !important;
+        font-family: {{ sans_serif }} !important;
+    }
+    a,p,img{
+      text-decoration: none;
+      outline: 0;
+      border: 0;
+    }
+    @media screen and (max-width: 767px){
+        table.custom-topics-group td{
+            display: block !important;
+            width: 100% !important;
+            text-align: center;
+            display:block !important;
+            max-width:600px !important;
+            box-sizing:border-box !important;
+        }
+        .responsive,.responsive td.column{
+            width:100%;
+            max-width:100% !important;
+            display:block !important;
+            max-width:600px !important;
+            box-sizing:border-box !important;
+        }
+        img {
+            width: auto !important;
+            height: auto !important;
+        }
+       
+    }
+    @media screen and (max-width: 650px){
+        img {
+            width: auto !important;
+            height: auto !important;
+        }
+    }
+</style>
+
+
+<!--[if mso]>
+<p>Only Microsoft Word based versions of Outlook would see this.</p>
+<![endif]-->
+This would target all IE based versions of Outlook:
+
+<!--[if (IE)]>
+<p>Only IE based versions of Outlook would see this.</p>
+<![endif]-->
+We can also target specific version numbers of Outlook:
+
+<!--[if mso 12]>
+<p>Only Outlook 2007 would see this.</p>
+<![endif]-->
+
+
+
+dkumar@hubspot.com
+M@dr1d2!
+
+dsachdeva@hubspot.com
+M@dr1d2!@
+
+dekumar@hubspot.com
+S1lkrout$
+
+vnewariya@hubspot.com
+M@dr1d2!
+
+asingh@hubspot.com
+M@dr1d2!
+
+dmittal@hubspot.com
+Ultrabook9!
+
+rjadon@hubspot.com
+M@dr1d2!
+
+Salesforce login
+
+dkumar@hubspot.com
+M@dr1d2!
+
+mbisht@hubspot.com
+Pr@gu31!
+
+
+asharma@hubspot.com
+M@dr1d2!@
+
+jupadhyay@hubspot.com
+B0d@p3st
+
+gjee@hubspot.com
+M@dr1d2!
+
+<script>
+
+  function initMap() {
+      var myLatLng = {lat: 43.201690, lng: -89.205279};
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 14,
+        center: myLatLng
+      });
+
+    var icon = {
+      url: "https://cdn2.hubspot.net/hubfs/4567973/33622.png",
+      scaledSize: new google.maps.Size(50, 50), // scaled size
+  };
+
+      var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        size: new google.maps.Size(71, 71),
+        icon: icon,
+        title: '33622'
+      });
+    }
+</script>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApUJ-_IP0rFADg_XHHS9UgxbOuEb0qSB0&amp;sensor=false&amp;ver=4.3.4&amp;callback=initMap"></script>  
+
+
+
+
+
+
+
+
+
+
+{% set max_posts = 999 %}{# Set the max number of related posts to be output to the page here #}
+ {% set post_list = [] %}
+ {% for topic in content.topic_list %}
+ {% set post_list = post_list + blog_recent_topic_posts(group.id, topic.slug, max_posts) %}
+ 
+ {% set post_list = post_list|sort(true, false, 'publish_date')|unique('name') %}
+ 
+ {% if loop.first %}
+ <a class="topic-link" href="{{ blog_tag_url(group.id, topic.slug) }}">See all {{  post_list|length }}  posts
+   →</a>
+ {% endif %}
+ 
+ {% endfor %}
+
+
+
+
+
+   {% macro defaultItemClasses() %}
+   {{
+   {
+     "class": "no-submenu menu-item"
+   }|xmlattr
+   }}
+  {% endmacro %}
+
+  {% macro childClasses() %}
+   {{
+   {
+     "class": "has-submenu menu-item"
+   }|xmlattr
+   }}
+  {% endmacro %}
+
+  {% macro activeNode() %}
+   {{
+   {"class": "menu-link active-item",
+   "aria-current": "page"}|xmlattr
+
+   }}
+  {% endmacro %}
+  {% macro activeBranch() %}
+   {{
+   {"class": "menu-link active-branch"}|xmlattr
+
+   }}
+  {% endmacro %}
+
+  {% macro linkTarget() %}
+  {{
+  {"target": "_blank"}|xmlattr
+  }}
+  {% endmacro %}
+  {% macro link(node) %}
+  <li {{ childClasses() if node.children else defaultItemClasses() }}>
+
+    <a class="menu-link" href="{{ node.url }}" {{ activeNode() if node.activeNode }} {{ activeBranch()if node.activeBranch }} {{ linkTarget() if node.linkTarget }}>{{ node.label }}</a>
+    {% if node.children %}
+    <div class="child-trigger"></div>
+    {% endif %}
+    {% if node.children %}
+    {{ renderNavigation(node) }}
+    {% endif %}
+  </li>
+  {% endmacro %}
+
+  {% macro renderNavigation(menuTree) %}
+
+    {% set level = level + 1 %}
+
+    <ul class="submenu level-{{ level }}" aria-hidden="{{ level != 1 }}">
+     
+      {% for node in menuTree.children %}
+        {{ link(node) }}
+      {% endfor %}
+    </ul>
+  {% endmacro %}
+
+  <nav aria-label="Main menu" class="navigation-primary">
+    {{ renderNavigation(menu(module.primary_menu_field)) }}
+  </nav>
+
+
+
+  <!-- <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script> -->
+<div class="filter-hero-section">
+  <div class="content-wrapper">
+    <div class="maxWidth860">
+      {% if module.title %}
+      <div class="dcMainTitle">
+        <h4>{{ module.title }}</h4>
+      </div>
+      {% endif %}
+      {% if module.sub_content %}
+      <div class="dcMainsubContent ">
+        {{ module.sub_content }}
+      </div>
+      {% endif %}
+    </div>
+    
+    <div class="partners-filter-group-section">
+      <div class="search-field">
+        <input type="text" class="quicksearch" name="quicksearch">
+          </div>
+      <div class="filter-data-group left-col">
+        <div class="status-filter common-filter">
+          <div class="status-breadcrumb">
+            <div class="status-breadcrumb-div common-breadcrumb-div">
+              <h5>All specialities</h5>
+            </div>
+            <div class="data-filter">
+              <div class="filters">
+                <div class="ui-group">
+                  <div class="button-group js-radio-button-group" data-filter-group="by-topic">
+                    <ul>
+                      <li> <button class="button topic-button is-checked" data-filter="*">All specialities</button></li>
+                       {% set specialities = hubdb_table_rows(3420736)%}
+                       {% for row in specialities %}
+                       <li><button class="button topic-button" data-filter=".{{ row.specialty|replace(' ','-') }}">{{ row.specialty }}</button></li>
+                       {% endfor %}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-col1 filter-data-group">
+        <div class="topic-filter common-filter">
+          <div class="topic-breadcrumb">
+            <div class="topic-breadcrumb-div common-breadcrumb-div">
+               <h5>All Clinic</h5>
+             </div>
+            <div class="data-filter">
+              <div class="filters">
+                <div class="ui-group">
+                  <div class="button-group js-radio-button-group" data-filter-group="by-type">
+                    <ul>
+                      <li> <button class="button type-button is-checked" data-filter="*">All Clinic</button></li>
+                       {% set Clinic = hubdb_table_rows(3487309)%}
+                       {% for row in Clinic %}
+                       <li><button class="button type-button" data-filter=".{{ row.clinic|replace(' ','-') }}">{{ row.clinic }}</button></li>
+                       {% endfor %}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+    
+    <div class="doctorListBoxes grid">
+       {% for item in module.box_group %}
+       <div class="ib vt doctorLBox post-item team-details-cm filter-companies-cm {% for item2 in item.speciality.hubdbrow_field %}{{ item2.columns.specialty|replace(' ','-') }} {% endfor %} 
+                   {% for item2 in item.clinic_choices.clinics %}
+                   {{ item2.columns.clinic|replace(' ','-') }}
+                   {% endfor %}
+                   ">
+          <div class="doctorListBox">
+             {% set href = item.box_link.url.href %}
+             {% if item.box_link.url.type is equalto "EMAIL_ADDRESS" %}
+             {% set href = "mailto:" + href %}
+             {% endif %}
+             {% set rel = [] %}
+             {% if item.box_link.no_follow %}
+             {% do rel.append("nofollow") %}
+             {% endif %}
+             {% if item.box_link.open_in_new_tab %}
+             {% do rel.append("noopener") %}
+             {% endif %}
+             <a href="{{ href }}"
+                {% if item.box_link.open_in_new_tab %}target="_blank"{% endif %}
+                {% if rel %}rel="{{ rel|join(" ") }}"{% endif %}
+                ></a>
+             <div class="doctorListBoxInner">
+                <div class="doctorListImg">
+                   {% if item.team_member_image.src %}
+                   {% set sizeAttrs = 'width="{{ item.team_member_image.width }}" height="{{ item.team_member_image.height }}"' %}
+                   {% if item.team_member_image.size_type == 'auto' %}
+                   {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+                   {% elif item.team_member_image.size_type == 'auto_custom_max' %}
+                   {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ item.team_member_image.max_width }}px; max-height: {{ item.team_member_image.max_height }}px"' %}
+                   {% endif %}
+                   {% set loadingAttr = item.team_member_image.loading != 'disabled' ? 'loading="{{ item.team_member_image.loading }}"' : '' %}
+                   <img src="{{ item.team_member_image.src }}" alt="{{ item.team_member_image.alt }}" {{ sizeAttrs }}>
+                   {% endif %} 
+                </div>
+                <div class="doctorBtm">
+                   <span class="doctorname">{{ item.team_member_title }}</span><span class="doctorDesigna">{{ item.team_member_designation }}</span>
+                </div>
+             </div>
+          </div>
+       </div>
+       {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
+	
+	
+
+
+  $(window).on('load', function(){
+    $('.data-filter').slideUp();
+    $('.common-filter').on('click',function(e){
+       $('.data-filter').slideUp();
+       e.stopPropagation();
+       if ( $(this).closest('.filter-data-group').find('.data-filter').is( ":hidden" ) ) {
+          $(this).closest('.filter-data-group').find('.data-filter').slideDown();
+       } else {
+          $(this).closest('.filter-data-group').find('.data-filter').slideUp();
+       }
+    });
+    $('.topic-button').on('click',function(e){
+       var x = $(this).html();
+       $('.status-breadcrumb-div > h5').empty().prepend(x);
+       $(".left-col.filter-data-group .data-filter").delay(100).slideToggle();
+    });  
+ 
+    $('.type-button').on('click',function(e){
+       var x = $(this).html();
+       $('.topic-breadcrumb-div > h5').empty().prepend(x);
+       $(".right-col1.filter-data-group .data-filter").delay(100).slideToggle();
+    }); 
+ 
+    $('main#main-content').click(function(e){
+       $('.data-filter').slideUp();
+       e.stopPropagation();
+    });  
+    var buttonFilters = {};
+    var buttonFilter;
+    //  quick search regex
+    var qsRegex;
+    // init Isotope
+    var $container = $('.grid');
+    
+    $container.imagesLoaded( function() {
+       $container.isotope({
+          itemSelector: 'body .filter-companies-cm',
+          layoutMode: "masonry",
+          filter: function() {
+             var $this = $(this);
+             var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+             var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
+             if(searchResult && buttonResult) {
+                $(this).addClass('active');
+             } else {
+                $(this).removeClass('active');  
+             }
+             return searchResult && buttonResult;
+          },
+       });
+    });
+   
+    
+ 
+ 
+    $('.filters').on( 'click', '.button', function() {
+       var $this = $(this);
+       // get group key
+       var $buttonGroup = $this.parents('.button-group');
+       var filterGroup = $buttonGroup.attr('data-filter-group');
+       // set filter for group
+       buttonFilters[ filterGroup ] = $this.attr('data-filter');
+       // combine filters
+       buttonFilter = concatValues( buttonFilters );
+       // Isotope arrange
+       refreshItemFilters();
+       // loadMore();
+       if ( !$( ".blog-body .team-details-cm.filter-companies-cm.item.active" ).length ) {
+          $( ".blog-body .post-listing" ).addClass('not-found');
+       }else{
+          $( ".blog-body .post-listing" ).removeClass('not-found');
+       }
+    });
+    // use value of search field to filter
+    var $quicksearch = $('.quicksearch').keyup( debounce( function() {
+       qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+       refreshItemFilters();
+       // loadMore();
+       if ( !$( ".blog-body .team-details-cm.filter-companies-cm.item.active" ).length ) {
+          $( ".blog-body .post-listing" ).addClass('not-found');
+       }else{
+          $( ".blog-body .post-listing" ).removeClass('not-found');
+       }
+    }) );
+    // change is-checked class on buttons
+    $('.button-group').each( function( i, buttonGroup ) {
+       var $buttonGroup = $( buttonGroup );
+       $buttonGroup.on( 'click', 'button', function() {
+          $buttonGroup.find('.is-checked').removeClass('is-checked');
+          $( this ).addClass('is-checked');
+          // loadMore();
+          refreshItemFilters();
+       });
+    });
+    // flatten object by concatting values
+    function concatValues( obj ) {
+       var value = '';
+       for ( var prop in obj ) {
+          value += obj[ prop ];
+       }
+       return value;
+    }
+    // debounce so filtering doesn't happen every millisecond
+    function debounce( fn, threshold ) {
+       var timeout;
+       threshold = threshold || 100;
+       return function debounced() {
+          clearTimeout( timeout );
+          var args = arguments;
+          var _this = this;
+          function delayed() {
+             fn.apply( _this, args );
+          }
+          timeout = setTimeout( delayed, threshold );
+       };
+    }  
+    function refreshItemFilters () {
+       // Isotope arrange
+       $container.isotope();
+       // loadMore();
+    } 
+ 
+ 
+ });
+ 
+ 
+ $(".quicksearch").on('focus', function () {
+    $(this).parent('.search-field').addClass('active');
+ });
+ 
+ $(".quicksearch").on('blur', function () {
+    if($(this).val().length == 0)
+       $(this).parent('.search-field').removeClass('active');
+ });
+ 
+ 
+
+ {% if site_settings.favicon_src %}<link rel="shortcut icon" href="{{ site_settings.favicon_src }}" />{% endif %}
+
+ <meta name="description" content="{{ page_meta.meta_description }}">
+
+  <link rel="preconnect" href="https://www.googletagmanager.com">.
+  <link rel="preload" as="style" href="https://www.nuffielddental.com.sg/hs-fs/hub/8018733/hub_generated/template_assets/40764638820/1617625056405/Nuffield_Dental_Jan_2021/css/main.min.css">
+  <link rel="preload" as="style" href="https://www.nuffielddental.com.sg/hs-fs/hub/8018733/hub_generated/template_assets/40764334385/1617625058334/Nuffield_Dental_Jan_2021/css/theme-overrides.min.css">
+
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" type="font/woff2" crossorigin> 
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open+Sans:regular|Source+Sans+Pro:regular,700,900&display=swap">
+  <link rel="preload" href="https://www.nuffielddental.com.sg/hs/cta/cta/current.js" as="script">
+  <link rel="preload" href="https://www.nuffielddental.com.sg/hs-fs/hub/8018733/hub_generated/template_assets/40949067000/1617625056534/Nuffield_Dental_Jan_2021/js/jquery.min.js" as="script">
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js" as="script">
+  <link rel="preload" href="https://f.hubspotusercontent30.net/hubfs/8018733/nuffield_holdings_2021/fonts/opensans-semibold-webfont.woff" as="font" type="font/woff2" crossorigin> 
+  <link rel="preload" href="https://f.hubspotusercontent30.net/hubfs/8018733/nuffield_holdings_2021/fonts/opensans-regular-webfont.woff" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="https://f.hubspotusercontent30.net/hubfs/8018733/nuffield_holdings_2021/fonts/Source_Sans_Pro/sourcesanspro-semibold-webfont.woff" as="font" type="font/woff2" crossorigin> 
+  <link rel="preload" href="https://f.hubspotusercontent30.net/hubfs/8018733/nuffield_holdings_2021/fonts/opensans-bold-webfont.woff" as="font" type="font/woff2" crossorigin> 
