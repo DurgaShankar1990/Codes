@@ -93,3 +93,100 @@ if (document.readyState === "complete" ||
 } else {
   document.addEventListener("DOMContentLoaded", hsOnReadyLoadTabber);
 }
+
+
+======================================== sticky section ============================================================
+
+function stickyBox(marginTop, marginBottom) {
+    var $nav = $('.js-sticky');
+    var $footer = $('.js-sticky-end');
+    var navTop = 0;
+    var footerTop = 0;
+    var navHeight = 0;
+    if ($nav.length) {
+        navTop = $nav.offset().top;
+        $(window).scroll(function() {
+            navHeight = $nav.outerHeight();
+            if ($footer.length)
+                footerTop = $footer.offset().top;
+            if ($(window).scrollTop() >= navTop - marginTop) {
+                $nav.removeClass("bottom").addClass("fixed");
+            } else {
+                $nav.removeClass("fixed");
+            }
+            if ($footer.length) {
+                if ($(window).scrollTop() >= footerTop - navHeight - marginTop - marginBottom) {
+                    $nav.removeClass("fixed").addClass("bottom");
+                } else {
+                    $nav.removeClass("bottom");
+                }
+            }
+        });
+    }
+}
+stickyBox(110, 0);
+
+// =========================== copy link
+
+
+$('.copy_text').click(function (e) {
+   e.preventDefault();
+   var copyText1 = $(this).attr('href');
+   var copyText = 'https:'+copyText1
+   document.addEventListener('copy', function(e) {
+    e.clipboardData.setData('text/plain', copyText);
+    e.preventDefault();
+   }, true);
+   document.execCommand('copy');  
+   console.log('copied text : ', copyText);
+  $('body').removeClass('social-open')
+ });
+
+
+/*=======================================================================================*/
+                                    Counter-Up
+
+/*<script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<div class="counter-group">
+    <div class="circle-circle">
+        <div  class="chart" data-percent="{{ module.counter_value }}">
+          <div class="number"><span class="counter">{{ module.counter_value }}</span><span>%</span></div>
+        </div>
+    </div>
+    <div class="circle-text">
+        <p>{{ module.content }}</p>
+    </div>
+</div>*/
+/*=======================================================================================*/
+
+$(function() {
+  $(window).scroll(function() {
+    /* Check the location of each desired element */
+    $('.chart').each(function(i) {
+        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+        /* If the object is completely visible in the window, fade it in */
+        if (bottom_of_window > bottom_of_object) {
+
+            $('.chart').easyPieChart({
+                 barColor: '#e82138',
+                 trackColor: '#8c8c8c',
+                 scaleColor: false,
+                 lineCap: 'round',
+                 lineWidth: 4,
+                 size: 134,
+                 animate: 1000,
+                onStep: function(from, to, percent) {
+                    $(this.el).find('.percent').text(Math.round(percent));
+                }
+            });
+        }
+      });
+  });
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+  });
+});
